@@ -1,0 +1,119 @@
+/*-----------------------------------------
+    Initial CSS 
+-----------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #3A3A3A;
+    background-color: #ffffff;
+}
+
+.primary-header,
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 4.375rem;
+    color: #3A3A3A;
+}
+
+.secondary-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.375rem;
+    line-height: 3.75rem;
+    color: #0A0826;
+}
+
+.regular-header,
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 3rem;
+    color: #3A3A3A;
+}
+
+p,
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #6C6C6C;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-black {
+    background-color: #0A0826;
+}
+
+.container {
+    width: 1110px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------------------------
+    Header Section 
+--------------------------------------------*/
+.header {
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #3A3A3A;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav li a {
+    padding: 10px 17px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #3A3A3A;
+    transition: all 200ms ease-in;
+}
+
+.nav li a:hover,
+.active {
+    color: #ffffff !important;
+    background-color: #e02c6d;
+    border-radius: 5px;
+}
+
+.menu_bar {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #3A3A3A;
+    border: 0px solid;
+    background: none;
+    display: none;
+}
