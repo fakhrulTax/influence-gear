@@ -173,7 +173,7 @@ img {
 .partners {
     display: grid;
     display: flex;
-    height: 110px;
+    max-height: 110px;
     border-top: 1px solid #AAAAAA;
     border-bottom: 1px solid #AAAAAA;
     align-items: center;
@@ -184,4 +184,80 @@ img {
 
 .partners a {
     margin: 0
+}
+
+/*-----------------------------------------
+    Collections
+-----------------------------------------*/
+.collection-area .regular-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.collection {
+    padding: 17px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.collection-info h2 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    color: #18191F;
+    margin-top: 16px;
+}
+
+.price {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 0;
+}
+
+.color-gold {
+    color: #FB8200;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    font-size: 1rem;
+}
+
+.rate-number {
+    font-size: 0.875rem;
+    color: #5E6366;
+}
+
+.collection-details {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.018em;
+    color: #787885;
+}
+
+.collection .collection .collection-thumb img {
+    width: 300px;
+    height: 256px;
+}
+
+.pagination {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: right;
+}
+
+.pagination a {
+    color: rgba(224, 44, 109, 0.87);
 }
