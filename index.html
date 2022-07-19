@@ -22,8 +22,8 @@
     <!-- header Start -->
     <header class="center-container">
         <div class="container">
-            <div class="header">
-                <button class="menu_bar"><i class="fa-solid fa-bars"></i></button>
+            <div class="header" id="header">
+                <button class="menu_bar" onclick="mobile_menu()"><i class="fa-solid fa-bars"></i></button>
                 <!-- Logo -->
                 <div class="logo">
                     <a href="#">Influencer products</a>
@@ -39,6 +39,9 @@
                         <li><a href="#"><i class="fa-solid fa-cart-plus"></i></a></li>
                     </ul>
                 </nav>
+                <div class="cart">
+                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                </div>
             </div>
         </div>
     </header>
@@ -335,7 +338,12 @@
             </div>
         </div>
     </footer>
-
+    <script>
+        function mobile_menu() {
+            header = document.getElementById('header');
+            header.classList.toggle('mobile-menu');
+        }
+    </script>
 </body>
 
 </html>
