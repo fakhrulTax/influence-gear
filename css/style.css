@@ -261,3 +261,64 @@ img {
 .pagination a {
     color: rgba(224, 44, 109, 0.87);
 }
+
+/*-----------------------------------------
+    Feature Section
+-----------------------------------------*/
+.features {
+    display: flex;
+    align-items: center;
+}
+
+.feature-image {
+    width: 404px;
+
+    margin-right: 96px;
+}
+
+.feature-image img {
+    width: 404px;
+    height: 270px;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+
+/*-----------------------------------------
+    Footer Section
+-----------------------------------------*/
+footer {
+    margin-top: 100px;
+    background-color: #0A0826;
+}
+
+.footer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    color: #FFFFFF;
+}
+
+.footer p {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #D9DBE1;
+    margin: 0;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav li a {
+    color: #D9DBE1;
+    margin-right: 10px;
+}
